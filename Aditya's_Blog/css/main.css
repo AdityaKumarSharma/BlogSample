@@ -1,0 +1,67 @@
+body { 
+  font-family: 'Open Sans', sans-serif;
+  /*background: rgba(0, 0, 0, 0) url("../images/wet-lights.jpg") no-repeat fixed center center / 100% 100%;*/
+   background-image: url("../images/wet-lights.jpg");
+  background-repeat: no-repeat;
+  background-color: #000;
+  background-position: center center;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+button,input,select,textarea{margin:0;vertical-align:baseline;*vertical-align:middle;}
+button,input{line-height:normal;}
+button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer;*overflow:visible;}
+*{
+	box-sizing: border-box;
+}
+
+/* STRUCTURE */
+
+#pagewrap {
+
+}
+#header {
+	height: 170px;
+	padding: 0 15px;
+	background-color:#000;
+	color:#fff;
+}
+#header .myself{
+    border: 4px solid #fff;
+    border-radius: 8px;
+    position: absolute;
+    top: 75px;
+    z-index: 3;
+}
+#content {
+	float: left;
+	padding: 5px 15px;
+	width: 100%;
+	height:2000px;
+}
+#content .story{
+	border: 2px solid #fff;
+    border-radius: 8px;
+	color:#fff;
+	margin-top: 100px;
+	background-color:#000;
+	opacity:0.8;
+	padding: 10px;
+	font-size: 1.2em;
+}
+#content .story .storyheader{
+	font-size: 2em;
+    text-align: center;	
+}
+#footer {
+	clear: both;
+	padding: 0 15px;
+	background-color:#000;
+	color:#fff;
+	opacity: 0.8;
+}
+#pagewrap, #header, #content, #middle, #sidebar, #footer {
+	border: 2px solid #fff;
+    border-radius: 2px;
+}
+
